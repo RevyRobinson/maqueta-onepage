@@ -10,24 +10,13 @@ a:hover {
 .nav>li>a:focus, .nav>li>a:hover {
 	background-color: transparent;
 }
-.title_areas {
+.title_sitio {
 	text-align: center;
 	background-color: #E72A31;
-	padding-top: 5px;
+	padding-top: 2px;
 	padding-bottom: 5px;
 	color: white;
-  	height: 80px;
-}
-.title_sitio {
-	background-image: url(../img/bg-1.jpg);
-	background-size: cover;
-	color: white;
-	margin-top: 20px;
-	text-align: center;
-	padding-top: 25px;
-	padding-bottom: 10px;
-	color: white;
-  	height: 120px;
+  	height: 60px;
 }
 .title_sitio div {
 
