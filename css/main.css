@@ -12,16 +12,13 @@ a:hover {
 }
 .title_sitio {
 	text-align: center;
-	background-color: #E72A31;
+	background-color: #FC6C85;
 	padding-top: 2px;
 	padding-bottom: 5px;
 	color: white;
   	height: 60px;
 }
-.title_sitio div {
 
-	background-color: #E72A31;
-}
 /*.sitio*/
 .sitio div {
 	padding-left: 0px;
@@ -40,12 +37,15 @@ a:hover {
 .sitio li:hover {
 	letter-spacing: 2px;
 }
+.sitio a {
+	color: #E72A31;
+}
 /*header*/
 header {
 	position: fixed;
 	width: 100%;
 	z-index: 1;
-	background-color: #E72A31;
+	background-color: #FC6C85;
 	height: 80px;
 	-webkit-box-shadow: 10px 10px 10px 0px rgba(17,17,18,0.32);
 	-moz-box-shadow: 10px 10px 10px 0px rgba(17,17,18,0.32);
@@ -102,6 +102,9 @@ header {
 	padding: 5%;
 }
 /*nuestras areas*/
+#nuestras-areas a {
+	color: black;
+}
 .white-bg{
   background-color: #FFF;
 }
