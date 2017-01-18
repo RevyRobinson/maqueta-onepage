@@ -85,6 +85,7 @@ header {
 
 }
 .nav li {
+	text-align: center;
 	margin-top: -10px;
 	width: 20%;
 }
@@ -95,11 +96,22 @@ header {
 	.nav li:nth-child(3){
 	margin-left: 0%;
 	}
+	.logo {
+	position: inherit;
+    left: 45%;
+	}
+	.nav li {
+		width:100%;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
 	.nav{
-	margin-top: 20px;
+	text-align: center;
+	margin-top: 5px;
 	padding-left: 1%;
 	}
 	.navbar-collapse {
+		margin-top: 30px;
 	background-color: white;
 	}
 }
@@ -126,7 +138,7 @@ header {
 }
 .banner {
 
-	background-color: rgba(0, 0, 0, 0.3);
+	background-color: rgba(0, 0, 0, 0.5);
 }
 /*nuestras areas*/
 #nuestras-areas {
