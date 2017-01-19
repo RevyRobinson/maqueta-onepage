@@ -20,22 +20,29 @@ a:hover {
 }
 .title_sitio {
 	text-align: center;
-	background-color: #FC4A4A;
-	padding-top: 2px;
-	padding-bottom: 5px;
-	color: white;
-  	height: 60px;
-
+	border-bottom:1px solid #FC4A4A;
+	color: #000;
+	text-transform: uppercase;
+	font-size: 18px;
+}
+.title_sitio h3 {
+	margin-bottom: 0px;
 }
 .no-pdd div{
 	padding-left: 0px;
 	padding-right: 0px;
 }
 /*.sitio*/
+.sitio {
+	padding-top: 95px;
+}
 .sitio a {
 	display: inline-block;
 }
-
+.sitio h5 {
+	text-align: center;
+	text-transform: lowercase;
+}
 .sitio div {
 	padding-left: 0px;
 	padding-right: 0px;
@@ -51,19 +58,23 @@ a:hover {
 	width: 100%;
 	color: #E72A31;
 	padding: 5%;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	text-align: center;
 	font-size: 15px;
 	transition: all 0.5s ease;
 }
 .sitio a:hover {
-	color: #FFF;
-	letter-spacing: 2px;
+	color: #000;
+	font-weight: bold;
 	transition: all 0.5s ease;
-}	
+}
+/*flecha*/	
 .sitio>div>div>div>a{
 	width: 10%;
 	text-align: right;
 	color: #D8D8D8;
+	height: 30px;
 }
 .sitio>div>div>div>a:hover {
 	color: #000;
@@ -81,7 +92,8 @@ header {
 	box-shadow: 0px 10px 10px 0px rgba(17,17,18,0.32);
 }
 .navbar-toggle span{
-	color: black;
+	color: #FFF;
+	margin-top: 5px;
 }
 .logo {
 	position: absolute;
@@ -100,34 +112,13 @@ header {
 	margin-left: 20%;
 	text-align: left;
 }
-.nav>li>a, .nav>li>a{
+.nav>li>a{
 	font-size: 18px;
 	color: #FFF;
 	text-transform: uppercase;
 }
-@media only screen and (max-width: 500px) {
-	.nav li:nth-child(3){
-	margin-left: 0%;
-	}
-	.logo {
-	position: inherit;
-    left: 45%;
-	}
-	.nav li {
-		width:100%;
-		padding-top: 10px;
-		padding-bottom: 10px;
-	}
-	.nav{
-	text-align: center;
-	margin-top: 5px;
-	padding-left: 1%;
-	}
-	.navbar-collapse {
-		margin-top: 30px;
-	background-color: white;
-	}
-}
+
+
 
 
 /*BANNER*/
@@ -154,6 +145,7 @@ header {
 /*nuestras areas*/
 #nuestras-areas {
 	margin-top: 20px;
+	padding-top: 70px;
 }
 #nuestras-areas a {
 	color: black;
@@ -214,4 +206,41 @@ footer {
 footer a {
 	color: #E72A31;
 
+}
+
+
+/*>>>>MOVIL<<<<<*/
+
+@media only screen and (max-width: 500px) {
+	.nav li:nth-child(2){
+	margin-left: 0%;
+	text-align: center;
+	}
+	.logo {
+	position: inherit;
+    left: 45%;
+	}
+	.nav>li>a {
+		color: #000;
+	}
+	.nav li {
+		text-align: center;
+		width:100%;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	.nav{
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		margin-top: 5px;
+		padding-left: 1%;
+	}
+	.navbar-collapse {
+		margin-top: 30px;
+		background-color: #F6F6F6;
+		border-bottom:1px solid #FC6C85 ;
+		border-left: 1px solid #FC6C85;
+		border-right: 1px solid #FC6C85;
+	}
 }
